@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.random.adcascade"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="7" />
+    
+ 	<!-- Internet is mandatory permission -->
+ 	<uses-permission android:name="android.permission.INTERNET" />
+ 	
+	<!-- optional permissions to serve location based Ads -->
+	<!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> -->
+	<!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
+ 	
+ 	<!-- optional permission to enable the user to make calls from Ads -->
+	<!-- <uses-permission android:name="android.permission.CALL_PHONE" />  -->
+	
+	<!-- optional permission to get the network state for targeting purposes -->
+	<!-- <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> -->
+ 	
+    <application android:icon="@drawable/alien_free_1" android:label="@string/app">
+		
+		<!-- AdMob Activity -->
+		<activity android:name="com.google.ads.AdActivity"
+              android:configChanges="keyboard|keyboardHidden|orientation"/>
+		<!-- mobFox Activity -->
+		<activity android:name="com.mobfox.sdk.InAppWebView"/>
+		<!-- inMob Activitiy -->
+		<activity android:name="com.inmobi.androidsdk.IMBrowserActivity"
+			android:configChanges="keyboardHidden|orientation|keyboard" />
+			
+			
+    </application>
+</manifest>

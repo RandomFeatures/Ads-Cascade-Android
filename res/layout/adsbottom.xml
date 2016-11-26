@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    android:id="@+id/topLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.ads.AdView  
+      android:id="@+id/ad" 
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      ads:backgroundColor="#000000"
+      ads:adUnitId="a14e852d0b7c545"
+      ads:primaryTextColor="#FFFFFF"
+      ads:secondaryTextColor="#CCCCCC"
+      ads:adSize="BANNER"
+    />
+    <com.adiquity.android.AdIquityAdView
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true" 
+    android:id="@+id/adview"
+    />
+</RelativeLayout>

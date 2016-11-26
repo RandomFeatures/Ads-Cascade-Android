@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app">AdServer Cascade</string>
+     <string name="app_name">AdServer Cascade</string>
+ 	<string name="copyright">© 2012 Random Features, Inc. </string>
+ 	<string name="if_like">If you like this game you may also like</string>
+ 	<string name="xmas_try">A classic Mahjong solitaire game with a cute Christmas theme, that you can download for free right now!</string>
+ 	<string name="christmas_mahjong">Christmas Mahjong!</string>
+ 	<string name="download_now">Download Now</string>
+ 	<string name="maybe_later">Maybe Later</string>
+ 	<string name="halloween_screamscape">Halloween Screamscape!</string>
+ 	<string name="scream_try">"A spooky stroll through a moonlit landscape, that you can download for free right now!"</string>
+ 	<string name="halloween_dance_party">Halloween Dance Party!</string>
+ 	<string name="halloween_try">Keep the party rocking and challenge your memory with this Simon-like game, you can download for free right now!</string>
+ 	<string name="alien_dance_party">Alien Dance Party!</string>
+ 	<string name="eightbit_mahjong">8 Bit Mahjong!</string>
+ 	<string name="eight_try">A classic Mahjong solitaire game re-imagined for an 8 bit world, and you can download for free right now!</string>
+    
+    <style name="ButtonText">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textColor">#ffffff</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:layout_margin">3dp</item>
+	    <item name="android:textSize">30dp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:shadowColor">#000000</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">2</item>
+	</style>
+    
+
+</resources>
